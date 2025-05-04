@@ -1,12 +1,16 @@
 <script setup>
 import TaskList from './components/TaskList.vue'
 import TaskInput from './components/TaskInput.vue'
+import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
   <div id="app">
-    <TaskInput />
-    <TaskList />
+   <nav>
+   <RouterLink to="/create">create</RouterLink> |
+    <RouterLink to="/list">list</RouterLink>
+   </nav>
+    <RouterView />
   </div>
 </template>
 
