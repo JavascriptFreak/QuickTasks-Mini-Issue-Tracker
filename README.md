@@ -19,4 +19,15 @@
 3. Status dropdown for each task (e.g., "open", "in progress", "done")
 4. Fetch data from Quarkus REST API using Axios
 
+## intial repository setup
+git clone https://github.com/JavascriptFreak/QuickTasks-Mini-Issue-Tracker.git
+cd QuickTasks-Mini-Issue-Tracker
+
+# setup for the frontend 
+1. npm create vite@latest quicktasks-frontend --template vue
+2. cd quicktasks-frontend
+3. npm install
+4. npm install axios
+
+
 
